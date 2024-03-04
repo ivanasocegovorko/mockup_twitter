@@ -1,0 +1,31 @@
+img {
+    width: 300px;
+}
+
+.logo {
+    width: 30px;
+    padding-right:10px;
+}
+
+
+.container-footer {
+    background-color: rgba(162, 162, 162, 0.373);
+    height: 30px;
+    text-align: center;
+}
+
+.footer {
+    position:fixed;
+    bottom:0px;
+    width: 100%;
+}
+
+.text-1 {
+    color: gray;
+    padding: 200px;
+}
+
+.text {
+    color: gray;
+    font-size: 13px;
+}

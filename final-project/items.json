@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Outdoor Security Camera",
+      "price": 100,
+      "description": "Add outdoor security wherever you need it with the versatile Stick Up Cam Battery. Featuring a flexible wire-free design, Stick Up Cam Battery can be placed on a flat surface, or wall-mounted for protection almost anywhere outdoors.",
+      "manufacturer": "Amazon",
+      "imageUrl": "https://eu.ring.com/cdn/shop/products/Cocoa_battery_mounted_2000x2000.png?v=1668767835"
+    },
+    {
+      "id": 2,
+      "name": "Roborock S8 Pro Ultra",
+      "price": 1600,
+      "description": "Roborock's top-of-the-line two-in-one robot floor cleaner. One of the most powerful, feature-rich, and hands-off robot floor cleaners on the market.",
+      "manufacturer": "Roborock",
+      "imageUrl": "https://www.roborock-shop.hr/wp-content/uploads/2023/03/s8-ultra-bel0.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Echo Show 15",
+      "price": 1600,
+      "description": "Full HD 15.6 inch smart display with Alexa and Fire TV built in. Everything you need at a glance, family organisation and entertainment will look brilliant.",
+      "manufacturer": "Amazon",
+      "imageUrl": "https://www.jbhifi.com.au/cdn/shop/products/584661-Product-0-I-637819011777225236_a3f101b9-cad3-4e73-ab0a-419753981ddc.jpg?v=1646288010"
+    },
+    {
+      "id": 4,
+      "name": "Ring Video Doorbell",
+      "price": 180,
+      "description": "Answer the door from anywhere with Battery Video Doorbell Plus, a wireless doorbell security camera that features 1536p HD Video and Head-To-Toe View, so you won’t miss a visitor or package delivery.",
+      "manufacturer": "Amazon",
+      "imageUrl": "https://eu.ring.com/cdn/shop/products/ring_battery_doorbell_plus_atf_angle_1500x1500_349dec06-0edf-4a9a-8afe-65f51053dbed_2000x2000.png?v=1681378764"
+    }
+  ]
+}

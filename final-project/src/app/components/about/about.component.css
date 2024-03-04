@@ -1,0 +1,29 @@
+img {
+    width: 300px;
+}
+
+.mat-image {
+    width: 100%;
+    align-self: center;
+}
+
+.container {
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.responsive-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+}
+
+mat-card-actions {
+    align-self: center;
+}
+
+mat-card-header {
+    align-self: center;
+}

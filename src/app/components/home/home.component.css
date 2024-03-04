@@ -1,0 +1,32 @@
+img {
+    width: 300px;
+}
+
+.mat-image {
+    align-self: center;
+}
+
+.logo {
+    width: 30px;
+    padding-right:10px;
+}
+
+li {
+    list-style: none;
+}
+
+
+.container {
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.responsive-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    
+}
+  

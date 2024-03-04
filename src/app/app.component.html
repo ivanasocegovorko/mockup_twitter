@@ -1,0 +1,22 @@
+<mat-toolbar>
+  <img src="https://cdn-icons-png.flaticon.com/512/3838/3838838.png" class = "logo" alt="Logo" >
+  Smart Home
+  <mat-menu #appMenu="matMenu">
+      <button mat-menu-item [routerLink]="['/home']">Home</button>
+      <button mat-menu-item [routerLink]="['/about']">About</button>
+      <button mat-menu-item [routerLink]="['/products']">Products</button>
+    </mat-menu>
+    
+    <button mat-icon-button [matMenuTriggerFor]="appMenu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
+
+<footer class="footer">
+  <div class="container-footer">
+      <span class="text-1">© Smart Home, Inc.</span>
+      <span class="text">Website created by Ivana Soče Govorko</span>
+  </div>
+</footer>

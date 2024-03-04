@@ -1,0 +1,24 @@
+<div class="container responsive-grid">
+    <mat-card class="example-card" *ngFor="let item of itemList | slice:0:3;">
+        <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title [routerLink]= '["/products", item.id]'>{{item.name}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image class="mat-image" [routerLink]= '["/products", item.id]' src={{item.imageUrl}} alt={{item.name}}>
+    </mat-card>
+</div>   
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+

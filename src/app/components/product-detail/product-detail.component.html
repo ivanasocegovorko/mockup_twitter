@@ -1,0 +1,32 @@
+<div class="container responsive-grid">
+    <mat-card class="example-card">
+
+        <img mat-card-image class="mat-image" src={{currentItem.imageUrl}} alt={{currentItem.name}}>
+    </mat-card>
+
+    <mat-card class="example-card">        
+        <mat-card-header>
+            <mat-card-title>{{currentItem.name}}</mat-card-title>
+            <p>
+                <br>
+                <br>
+            </p>
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+                <b>Description: </b>{{currentItem.description}}
+            </p>
+            <p>
+                <b>Manufacturer: </b>{{currentItem.manufacturer}}
+            </p>
+            <p>
+                <b>Price: </b>{{currentItem.price}} €
+            </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button [routerLink]='["/products"]'>BACK</button>
+            <button mat-button [routerLink]='["/edit", currentItem.id]'>EDIT</button>
+            <button mat-button (click)="onDelete(currentItem.id)">DELETE</button>
+        </mat-card-actions>
+    </mat-card>
+</div> 
